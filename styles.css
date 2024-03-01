@@ -1,0 +1,413 @@
+html{
+    height: 100%;
+}
+.container{
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#7fc67f, #2ab455);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.leftbar{
+    background-color:#133348;
+    background-image: linear-gradient(#133348, #0d283b);
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:250px;
+    height:100%;
+}
+.menu{
+    display: table;
+    color:white;
+    position:absolute;
+    top:100px;
+    font-size:13px;
+}
+.harvard{
+    position:absolute;
+    bottom:20px;
+    left:70px;
+    color:white;
+    align-items:center;
+
+}
+
+.nav{
+    position:relative;
+    width:100%;
+    line-height:50px;
+    height:50px;
+    background-color:#133348;
+    text-align:right;
+    vertical-align: middle;
+    color:white;
+}
+.center{
+    position: absolute;
+    top: 33px;
+    right: 10px; ;
+    -ms-transform: translate(-50%, -50%);
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+.menu li{
+    vertical-align: middle;
+    display:inline-block;
+    list-style-type: none;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    width:80%;
+    left:0px;
+    margin:0px;
+    border-radius:5px;
+
+}
+ .menu a{
+    text-decoration:none;
+    color:white;
+ }
+.dashboard {
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background: url(images/icon.png) -4px;
+    opacity: 0.5;
+}
+.main-system {
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background: url(images/icon.png) -331px -98px;
+}
+.students {
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background: url(images/icon.png) -4px -289px;
+    opacity: 0.5;
+}
+
+.trash {
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background: url(images/icon.png) -211px -197px;
+    opacity: 0.5;
+}
+
+.operator {
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background: url(images/icon.png) -4px -289px;
+    opacity: 0.5;
+}
+
+.setting {
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    background: url(images/icon.png) -125px -195px;
+    opacity: 0.5;
+}
+
+.logout{
+    vertical-align: middle;
+    width:30px;
+    height:30px;
+    display:inline-block;
+    opacity: 0.5;
+    background: url(images/icon.png) -43px -194px;
+}
+.menu li:hover{
+    background-color: yellow;
+    background-image: linear-gradient(#7fc67f, #2ab455);
+}
+
+
+.logo-menu{
+    position: absolute;
+    margin-top: 20px;
+    left:40%;
+}
+
+.main {
+    position:absolute;
+    top:0px;
+    width:100%;
+    z-index:-1;
+    display: table;
+    height:50px;
+
+}
+
+.top{
+    height:50px;
+    background-color:#2e572b;
+}
+.top img{
+    margin-left:10px;
+}
+
+.top div{
+    padding-top:10px;
+    padding-right:20px;
+    float:right;
+    color:white;
+}
+
+.blok{
+    position:absolute;
+    top:200px;
+}
+
+.logo{
+    position:absolute;
+    padding-top:50px;
+    color:white;
+    font-size:24px;
+}
+.cloud{
+    position:absolute;
+    right:15px;
+    z-index:-1;
+    width: 737px;
+    height: 662px;
+    background-image: url("images/bg.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.login{
+    background-color:#133348;
+    background-image: linear-gradient(#133348, #0d283b);
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:1100px;
+    height:700px;
+    border-radius: 15px;
+    padding-left: 60px;
+    transform: translate(-50% , -50%);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.login input{
+    font-size:20px;
+    width:300px;
+    padding-top:20px;
+}
+
+.login button{
+    margin-top:20px;
+    width:300px;
+}
+
+.login h1{
+    color:white;
+}
+
+
+.blok div{
+    padding-top:10px;
+    color:white;
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* Setup */
+  position: relative;
+}
+
+.information{
+    top:400px;
+    position:absolute;
+    width:300px;
+    transform: translate(-50% , -50%);
+    left:50%;
+    font-size:13px;
+}
+
+.information li{
+    font-style:italic;
+}
+
+.information div{
+    text-align:center;
+    float:left;
+}
+.thank{
+    position:absolute;
+    bottom:10px;
+    color:white;
+    font-size:10px;
+    right:10px;
+}
+
+.box{
+    float:left;
+    width:100%;
+    top:50px;
+    border:solid 1px red;
+}
+
+.separate{
+    height: 400px;
+    margin-right: 10px;
+    width: 250px;
+    background: red;
+    float: left;
+}
+.data{
+    position:relative;
+    margin-left:250px;
+    top:50px;
+    overflow: hidden;
+    float: left;
+    width: 88%;
+}
+
+.data input{
+    font-size:24px;
+    width: 300px;
+    border:none;
+    border:solid 1px #bbfab8;
+    background-color:#f0feef;
+    border-radius:2px;
+}
+
+.data table{
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.data td{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.red{
+    background-color:red;
+}
+
+.data select{
+    border:none;
+    border:solid 1px #bbfab8;
+    background-color:#f0feef;
+    padding: 5px;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.view_data {en
+    position:absolute;
+    top:50px;
+}
+
+
+/* CSS */
+.button-8 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-37 {
+    padding: 10px 30px;
+  }
+}
+
+.info{
+    background-color:#2ab455;
+    color:white;
+    height:40px;
+    line-height:30px;
+    vertical-align:middle;
+    padding-left:20px;
+}
+
+/* CSS */
+.button-26 {
+  appearance: button;
+  background-color: #1652F0;
+  border: 1px solid #1652F0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Graphik,-apple-system,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size: 10px;
+  line-height: 0.15;
+  overflow: visible;
+  padding: 12px 12px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+}
+
+.button-26:disabled {
+  opacity: .5;
+}
+
+.button-26:focus {
+  outline: 0;
+}
+
+.button-26:hover {
+  background-color: #0A46E4;
+  border-color: #0A46E4;
+}
+
+.button-26:active {
+  background-color: #0039D7;
+  border-color: #0039D7;
+}
+
+
+
+
